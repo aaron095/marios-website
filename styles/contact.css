@@ -42,8 +42,10 @@
 @media (max-width: 600px) {
     .contact-area {
         flex-direction: column;
+        align-items: center;
         gap: 50px;
     }
 
+    
     
 }
