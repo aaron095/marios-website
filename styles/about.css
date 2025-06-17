@@ -4,6 +4,7 @@
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    position: relative;
     
    
 }
@@ -79,10 +80,7 @@
         align-items: center;
     }
 
-    .aboutimg {
-        max-width: 200px;
-        height: 200px;
-    }
+    
 
     .about-images {
         flex-direction: row;
@@ -94,4 +92,10 @@
         bottom: 0;
     }
     
+}
+
+@media (max-width: 500px) {
+    .aboutimg {
+        width: 400px;
+    }
 }
