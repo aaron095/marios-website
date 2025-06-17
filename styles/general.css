@@ -5,14 +5,14 @@ body {
 }
 
 .home {
-    /* background-image: url("/images/front-page.JPEG"); */
-    background: linear-gradient(to bottom, rgb(48, 43, 43), maroon);
-    /* background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center; */
+    background-image: url("/images/background.jpg");
+    /* background: linear-gradient(to bottom, rgb(48, 43, 43), maroon); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     margin-top: 5px;
-    /* height: 60vh;
-    width: 100%; */
+    height: 60vh;
+    width: 100%;
     display: flex;
     align-items: center;
     text-align: center;
@@ -43,18 +43,18 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    /* background-color: rgba(0, 0, 0, 0.4); Adjust opacity to control darkness */
+    background-color: rgba(0, 0, 0, 0.4); /*Adjust opacity to control darkness*/
     z-index: 1;
 }
 
 .home-content h1 {
-    font-size: 70px;
+    font-size: 100px;
     color: white;
     position: relative;
     z-index: 2;
 }
 
-.home-content p {
+.home-content h2 {
     text-transform: uppercase;
     font-weight: bold;
     color: white;
@@ -81,8 +81,7 @@ body {
     cursor: pointer;
     transition: background-color 0.2s;
     text-decoration: none;
-    position: absolute;
-    bottom: 0;
+    
 }
 
 .contact-button:hover {
@@ -93,3 +92,4 @@ body {
 .separator {
     background-color: red;
 }
+
