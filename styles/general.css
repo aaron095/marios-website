@@ -5,13 +5,14 @@ body {
 }
 
 .home {
-    background-image: url("/images/front-page.JPEG");
-    background-color: rgba(0, 0, 0, 0.5);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    /* background-image: url("/images/front-page.JPEG"); */
+    background: linear-gradient(to bottom, rgb(48, 43, 43), maroon);
+    /* background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; */
     margin-top: 5px;
-    height: 60%;
+    /* height: 60vh;
+    width: 100%; */
     display: flex;
     align-items: center;
     text-align: center;
@@ -21,6 +22,14 @@ body {
     border-bottom: 15px solid maroon;
     border-top: 15px solid maroon;
     
+}
+
+.home img {
+    object-fit: cover;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+
 }
 
 .home-content {

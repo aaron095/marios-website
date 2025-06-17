@@ -57,7 +57,7 @@
 
 .grid-packages {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 50px;
 }
 
@@ -122,15 +122,15 @@
     list-style-type: none;
 } */
 
-.mechanic-img, .oil-img {
+/* .mechanic-img, .oil-img {
     transition: transform 0.5s ease;
 }
 
 .mechanic-img:hover, .oil-img:hover {
     transform: translateY(30px) rotate(25deg);
-}
+} */
 
-@media (max-width: 800px) {
+@media (max-width: 1400px) {
     .grid-packages {
         display: grid;
         grid-template-columns: 1fr 1fr; /* Switch to 2 columns */
